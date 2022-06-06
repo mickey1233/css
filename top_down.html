@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .ball {width:100px;
+               height: 100px;
+               border-radius: 50%; 
+               background-color: blue;
+               animation: top_down 2s ease-in infinite alternate;
+               position: relative;       
+              }
+        @keyframes top_down {
+            0%{top:0px;}
+            50%{top:250px;background-color: blue}
+            100%{top:500px;background-color:red}
+        }
+    </style>
+    <body>
+        <div class = "ball"></div>
+    </body>
+</head>
+</html>

@@ -1,0 +1,25 @@
+
+<style>
+
+    .div1{
+    margin:50px;
+    width:100px;
+    height:100px;
+    background:red;
+    position:relative; 
+    animation:abc 5s ease-in infinite 2s 
+    }
+    @keyframes abc
+    {
+    10%{transform: translate(100px,100px);}
+    50%{transform: scale(1.5,1.5);}
+    100%{transform: rotate(45deg);background-color: blue;}
+    /*from{top:0px}
+    to{top:100px}*/
+    }
+</style>
+    
+<body>
+    <div class=div1></div>
+</body>
+    

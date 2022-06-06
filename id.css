@@ -1,0 +1,6 @@
+#header {width: 800px; height: 80px; background-color: red}
+#nav {width: 220px; height: 200px;background-color: aqua;float: left;}
+#content {width: 580px; height: 200px;float: left; }
+iframe { width:576px; height: 196px; border : 2px dashed red  }
+#footer {width: 800px; height: 30px;background-color: blueviolet;clear: both;}
+#wrap {width: 800px}

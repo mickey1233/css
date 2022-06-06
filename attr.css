@@ -1,0 +1,7 @@
+[class] {color:blue} 
+[class="apple"] {color:red} 
+[class~="apple"] {color:green} 
+[class|="apple"] {color:black} 
+/*[class^="apple"] {color:rgb(255, 0, 128)} */
+/*[class$="apple"] {color:rgb(238, 255, 0)} */
+/*[class*="apple"] {color:rgb(221, 221, 234)} */

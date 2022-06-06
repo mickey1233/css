@@ -1,0 +1,38 @@
+
+<style>
+    .move {
+     margin:50px;
+     width:200px;
+     height:100px;
+     position:relative;
+     animation: ani 4s infinite;
+    
+ }
+    .start{
+        animation-timing-function: step-start;
+    }
+    .end{
+        animation-timing-function: step-end;
+    }
+    .start_end{
+        animation-timing-function: steps(100,end);
+    }
+ 
+ @keyframes ani{
+     0% { left:0; background:red; }
+     25% { left:50px; background:pink; }
+     50% { left:100px; background:green; }
+     75% { left:150px; background:yellow; }
+     100% { left:200px; background:orange; }
+ }
+ 
+ </style>
+ 
+ <body>
+   <div class="move">HTML</div>  
+   <div class="move start">HTML</div>
+   <div class="move">CSS</div>
+   <div class="move end">CSS</div>
+   <div class="move">HTML CSS</div>
+   <div class="move start_end">HTML CSS</div>
+ </body>

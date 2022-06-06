@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <head>
+        <style>
+            .sun {
+              position: absolute;
+              top: 240px;
+              left: 240px;
+              width: 100px;
+              height: 100px;
+              background: red;
+              border-radius: 60px;
+            }
+
+            .earth-circle {
+              position: absolute;
+              top: 65px;
+              left: 65px;
+              width: 450px;
+              height: 450px;
+              border: 1px solid lightgray;
+              border-radius: 300px;
+            }
+
+            .earth {
+              position: absolute;
+              top: 40px;
+              left: 265px;
+              width: 50px;
+              height: 50px;
+              background: green;
+              border-radius: 30px;
+              transform-origin: 25px 250px;
+              animation: rotate 16.5s linear infinite;  
+            }
+
+            .moon-circle {
+              position: absolute;
+              top: -30px;
+              left: -30px;
+              width: 110px;
+              height: 110px;
+              border: 1px solid lightgray;
+              border-radius: 110px;
+            }
+
+            .moon {
+              position: absolute;
+              top: -40px;
+              left: 15px;
+              width: 20px;
+              height: 20px;
+              background: lightgray;
+              border-radius: 50px;
+              transform-origin: 10px 65px;
+              animation: rotate 3s linear infinite;  
+            }
+            @keyframes rotate
+            {
+                to{transform: rotate(360deg);}
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="sun"></div>
+            <div class="earth-circle"></div>
+            <div class="earth">
+                <div class="moon-circle"></div>
+                <div class="moon"></div>
+            </div>
+        </div>
+    </body>
+</html>    

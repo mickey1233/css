@@ -1,0 +1,5 @@
+tr:nth-child(2n){background-color: blue;}
+tr:nth-child(2n+1){background-color: green;}
+
+th:empty {background-color: gray;}
+td:empty {background-color: gray;}
